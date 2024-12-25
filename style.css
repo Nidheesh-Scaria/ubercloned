@@ -1,0 +1,668 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family:UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body{
+    margin: 0;
+}
+button{
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(6, 6, 6);
+    padding: 10px 20px;
+    color: white;
+    padding: 10px 0;
+
+}
+
+nav a{
+    
+    color: #FFFFFF;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 350;
+    line-height: 15px;
+    text-decoration: none;
+   
+
+}
+nav  .first-nav{
+    margin-left: 80px;
+
+}
+nav  .first-nav a span{
+    font-size: 28px;
+    font-weight: 300;
+
+}
+.first-nav button{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+.first-nav select{
+    background: transparent;
+    color: white;
+    margin: right 20px ;
+    width: 60px;
+
+}
+.first-nav option{
+    color: grey;
+}
+.second-nav{
+    margin-right: 100px  ;
+}
+
+.second-nav button{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 15px;
+    
+}
+.second-nav .sign-up{
+    background: white;
+    color: black;
+    border: 0px solid;
+    border-radius: 15px;
+    width: 70px;
+    height: 30px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+
+}
+.header p{
+    margin-left: 80px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.header-links{
+    margin-right: 100px;
+
+}
+.header-links a{
+    color: #9c8d8d;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 11.5px;
+    margin-left: 30px;
+
+
+}
+.location-select{
+    height: 500px;
+    width: 50%;
+    float: left;
+    align-items: center;
+}
+.image-ride{
+    height: 500px;
+    width: 50%;
+   
+    float: left;
+
+}
+.image-ride img{
+    height: 90%;
+    width: 78%;
+    margin-top: 50px;
+}
+
+.location-select .location{
+    height: 60%;
+    width: 68%;
+    
+    background: #FFFFFF;
+    margin-left: 50px;
+
+
+}
+.location-select .location h1{
+    font-weight: 700;
+    font-size: 45px;
+    
+}
+.location-select .location input{
+    background-color: #F3F3F3;
+    height: 40px;
+    width: 360px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.inner-locationselect{
+    padding:0px 0px;
+    background: #FFFFFF;
+    margin-left: 15px;
+    margin-top: 95px;
+
+}
+.location-button{
+    padding: 0 80px;
+    margin-top: 25px;
+    
+}
+.location p{
+    margin-top: 10px;
+    font-weight: 50;
+    color: #2e2c2c;
+}
+.location-button .btn-one{
+    height:45px ;
+    width: 120px;
+    color:white;
+    background: black;
+    border-radius: 8px;
+    margin-left: -30px;
+}
+.location-button .btn-two{
+    height:45px ;
+    width: 165px;
+    color: black;
+    background: #F3F3F3;
+    border-radius: 8px;
+    margin-left: 20px;
+
+}
+
+.location-select .location .palacholder{
+    position: absolute;
+    padding: 21px 0;
+    margin-top: 0;
+    margin-left: -325px;
+    font-size: 15px;
+    color: #6f6565;
+
+}
+.suggestion{
+    height: 400px;
+    width: 100%;
+    float: left;
+    
+}
+.suggestion .content-suggestion{
+    
+    padding: 120px 70px;
+}
+.content-suggestion .ride{
+    float: left;
+    height: 150px;
+    width:300px ;
+    border-radius: 5px;
+    background: #F3F3F3;
+}
+.content-suggestion .reserve{
+    float: left;
+    height: 150px;
+    width:300px ;
+    margin-left: 20px;
+    border-radius: 5px;
+    background: #F3F3F3;
+
+}
+.content-suggestion p{
+    font-size: 11px;
+    color: #434141;
+
+}
+.content-suggestion button{
+    margin-left: 15px;
+    background: white;
+    border-radius: 30px;
+    height: 35px;
+    width:60px ;
+}
+.suggestion img{
+    height: 125px;
+    width: 135px;
+    
+
+}
+.ride .content-ride{
+    height: 100%;
+    width: 60%;
+}
+.ride .picture-ride{
+    float: left;
+    margin: -158px 175px;
+}
+.reserve .content-reserve{
+    height: 100%;
+    width: 60%;
+}
+
+.reserve .picture-reserve{
+    float: left;
+    margin: -160px 165px;
+   
+
+}
+.ride-friends{
+    height: 330px;
+    width: 100%;
+    float: left;
+}
+
+.picture{
+    height: 330px;
+    width: 50%;
+   
+    float: left;
+    padding: 125 px0 ;
+}
+.picture img{
+    height: 277px;
+    width: 515px;
+    margin: 50px 50px;
+}
+.ride-friendsmain{
+    height: 330px;
+    width: 50%;
+    float: left;
+
+}
+.ride-friendsmain .content{
+    width: 73%;
+    height: 100%;
+    
+}
+.ride-friendsmain h2{
+    font-size: xx-large;
+    font-weight: 700;
+}
+.ride-friendsmain p{
+    font-size: 15px;
+    color:#3c3c3c ;
+}
+.ride-friendsmain button{
+    background: white;
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+/* use the Uber app to help you travel your way */
+
+.use-uber{
+   width: 100%;
+   float: left;
+   padding: 90px 70px;
+    
+
+}
+.use-uber h1{
+    font-weight: 600
+}
+.use-uber .u-font{
+    font-size: 45px;
+}
+.use-uber .use-uber-img{
+    float: left;
+    
+}
+.use-uber img{
+    height:318px ;
+    width:300px ;
+    margin-left: 30px;
+
+
+}
+.use-uber-imgs{
+    margin-left:-27px;
+}
+.use-uber .image-div{
+    float: left;
+}
+.use-uber .image-content{
+    width: 300px;
+    margin-left: 30px;
+}
+.image-content button{
+    background: black;
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 6px;
+}
+/* Looking for business solutions? */
+.business-solution{
+    width: 100%;
+    height: 420px;
+    float: left;
+    background: black;
+    color: white;
+}
+.business-solution .business-image{
+    width: 50%;
+    float: left;
+}
+.business-image .business-img{
+    margin-top: 50px;
+    height: 250px;
+    width:500px ;
+    margin-left: 170px;
+
+}
+.business-solution  .business-content{
+    float: left;
+    width: 33%;
+}
+.business-content{
+    margin-top: 50px;
+    width: 50%;
+    height: 100%;
+    margin-left: 65px;
+}
+.business-content ul{
+    margin-left: 40px;
+
+}
+.business-content a{
+    color: white;
+}
+.business-content .check{
+    margin-left: 20px;
+}
+.business-content button{
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    width:150px ;
+    height: 40px;
+    border-radius: 6px;
+}
+/* Frequently asked questions */
+.faq {
+    width: 100%;
+    height: 100%;
+    align-items:center;
+    float: left;
+    
+}
+.faq .faq-header{
+    padding: 0 0;
+    margin-top: 50px;
+    margin-left:50px;
+}
+
+.faq .list{
+    margin: 60px auto;
+    width: 100%;
+    max-width:1025px;
+}
+.faq .list ul{
+    list-style: none;
+}
+.faq .list select{
+    margin: right 20px ;
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 0px;
+    border-bottom: 1px solid rgb(238, 235, 235);
+
+}
+/* Do more in the app */
+.morein-app{
+    height: 350px;
+    width: 100%;
+    background: #F3F3F3;
+    float: left;
+}
+.morein-app h1{
+    margin-left: 50px;
+    margin-top: 50px;
+
+}
+.morein-app .download{
+    height:200px ;
+    width:500px ;
+    background: white;
+    float: left;
+    color: black;
+}
+.morein-app .sign-up{
+
+    height:200px ;
+    width:500px ;
+    background: white;
+    float: left;
+    margin-left: 40px;
+    color: black;
+}
+.morein-app .boxes{
+    margin-left: 50px;
+}
+.morein-app .sign-up img{
+    margin: 25px 21px;
+    height: 150px;
+    width: 150px;
+}
+.morein-app .download img{
+    margin: 25px 21px;
+    height: 150px;
+    width: 150px;
+
+}
+.morein-app .download .download-images{
+    float: left;
+
+}
+
+.morein-app .download .download-content{
+    float: left;
+    margin-top: 50px;
+
+}
+.download .download-content h3{
+    font-size: 20px;
+}
+.morein-app .sign-up {
+    display: flex;
+}
+.morein-app .sign-up .signup-content{
+    ffloat: left;
+    margin-top: 50px;
+
+    
+}
+.morein-app .sign-up .signup-images{
+    float: left;
+}
+.download .arrow{
+    padding:55px 0 ;
+    float: left;
+    
+}
+.download .arrow p{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.sign-up .arrow p{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.sign-up .arrow{
+    padding:55px 0 ;
+    float: left;
+}
+/* Sign up to ride */
+
+.signup-ride{
+    width: 100%;
+    height: 150px;
+    float: left;
+}
+.signup-ride{
+    float: left;
+}
+.signup-ride button{
+    margin-left: 50px;
+    width: 500px;
+    height: 65%;
+    background: rgb(255, 255, 255);
+    border-bottom: 1px solid;
+}
+.signup-ride button h1{
+    text-align: left;
+    font-size: xx-large;
+}
+.signup-ride button .inner-arrow{
+    padding-left: 465px;
+    margin-bottom: 0;
+    margin-top: -60px;
+}
+.signup-ride .inner-signup{
+    width: 500px;
+    padding: 130px 55px;
+    
+}
+.signup-ride .inner-signup p{
+    font-size: small;
+    color: #424040;
+}
+/* Visit Help Center */
+.footer{
+    height: 100%;
+    width: 100%;
+    margin-top: 170px;
+    background: black;
+    float: left;
+    color: #FFFFFF;
+}
+.footer .uber{
+
+    margin-left: 55px;
+    margin-top: 50px;
+}
+.footer .visit-help{
+    margin-left: 55px;
+    margin-top: 50px;
+}
+.footer .visit-help a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size:  small;
+}
+
+
+.footer .uber h2{
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.footer .uber h2 span{
+    font-size: 25px;
+}
+.footer .contact-links{
+    padding: 60px 35px;
+}
+.footer .contact-links h2{
+    font-size: medium;
+}
+.footer .contact-links .common{
+    
+    float: left;
+    background-color: #000000;
+    width: 20%;
+    height: 300px;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+.footer .contact-links ul{
+    list-style: none;
+
+}
+.footer .contact-links ul li{
+    margin-top: 15px;
+    font-size: small;
+}
+.footer .contact-links a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.social{
+    float: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social .social-media{
+    float: left;
+}
+.social .social-media img{
+    width: 370px;
+    height: 20px;
+    margin-left: 50px;
+}
+.social .loc-social{
+    margin-right: 120px;
+    float: left;
+}
+.social .loc-social button{
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    height:50px ;
+    width: 80px;
+    
+}
+.social .loc-social button img{
+    height: 12px;
+    width: 15px;
+    
+}
+.mob-store{
+    float: left;
+}
+.mob-store img{
+    margin-left: 45px;
+    margin-top: 50px;
+    height: 40px;
+    width: 285px;
+
+}
+.copyright {
+    float: left;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.copyright .right{
+    padding: 50px 52px;
+    
+}
+.copyright .right p{
+    color:#8d8a8a ;
+    font-size: 10px;
+}
+.copyright .privacy{
+    margin-top: 50px;
+    margin-right: 120px;
+
+    
+}
+.copyright .privacy a{
+    text-decoration: none;
+    color:#8d8a8a ;
+    margin-left: 20px;
+    font-size: 10px;
+}
